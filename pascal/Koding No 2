@@ -1,0 +1,23 @@
+program soal2;
+uses crt;
+var
+i, j: Integer;
+begin
+clrscr;
+
+  for i := 1 to 5 do
+  begin
+    if i = 1 then
+      WriteLn('*')
+    else if i = 2 then
+      WriteLn('2 2')
+    else if i = 3 then
+      WriteLn('* * *')
+    else if i = 4 then
+      WriteLn('4 4 4 4')
+    else if i = 5 then
+      WriteLn('* * * * *');
+  end;
+
+  ReadLn;
+end.
